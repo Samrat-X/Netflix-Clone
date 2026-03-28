@@ -1,0 +1,378 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   color: white;
+}
+
+body {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   scroll-behavior: smooth;
+}
+
+main {
+   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8cc08720-ac1c-4364-bcbd-9495bf0308cd/web/NP-en-20260323-TRIFECTA-perspective_5b7184a9-d9e7-48a4-acce-b8e39e0d1db3_large.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   object-fit: cover;
+   width: 100%;
+   height: 90vh;
+
+   background-position: center;
+   width: 100%;
+
+
+}
+
+.main {
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   opacity: 0.75;
+   display: flex;
+   flex-direction: column;
+   position: 
+   static;
+
+
+
+
+
+}
+
+nav {
+   width: 100%;
+   height: auto;
+   /* border: 3px solid blue; */
+   display: flex;
+   color: red;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   flex-wrap: wrap;
+
+}
+
+nav h1 {
+   color: red;
+   font-size: 5vmax;
+   opacity: 1 !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav button {
+   color: white;
+   background-color: red;
+   padding: 10px;
+   font-size: 4vmax;
+   font-weight: bolder;
+   z-index: 10;
+   opacity: 1 !important;
+   text-shadow: 1px 1px 5px white;
+}
+
+.about-service {
+   width: auto;
+   height: auto;
+   /* border: 3px solid white; */
+   text-align: center;
+   margin: auto;
+   flex-wrap: wrap;
+   flex-direction: column;
+   display: flex;
+   gap: 1vmax;
+
+
+}
+
+.about-service h2 {
+   font-size: 5vmax;
+   color: white !important;
+   font-weight: bolder;
+
+}
+
+.about-service p {
+   font-size: 3vmax;
+}
+
+.input-container {
+   width: 100%;
+   height: auto;
+   display: flex;
+   gap: 2vmax;
+   /* border: 3px solid blue; */
+   margin-top: 2vmax;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.input-container input {
+   font-size: 2vmax;
+   padding: 10px;
+   color: rgb(247, 227, 227);
+   background-color: rgb(18, 16, 16);
+   width: 60%;
+   box-shadow: 1px 1px 6px 6px rgb(153, 39, 234);
+
+}
+
+.input-container input:hover {
+   box-shadow: 1px 1px 6px 6px white;
+}
+
+.input-container input:focus {
+   box-shadow: 1px 1px 6px 6px rgb(13, 29, 118);
+} 
+
+
+
+.input-container button {
+   color: white;
+   background-color: red;
+   padding: 10px;
+   font-size: 2.5vmax;
+   box-shadow: 1px 1px 6px 6px rgb(99, 25, 25);
+
+}
+
+.curve-line {
+   width: 100%;
+   height: 5px;
+   background-image: linear-gradient(to right, red, orange, blue, green);
+   border-top-left-radius: 300%;
+
+}
+
+.trending-item-list {
+   width: 100%;
+   height: auto;
+   /* border: 7px solid white; */
+   margin-top: 3vmax;
+   color: white;
+   font-size: 3vmax;
+
+}
+
+.trending-item-container {
+
+   width: 100%;
+   height: 40vmax;
+   display: flex;
+   flex-wrap: nowrap;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   gap: 2vmax;
+   
+
+
+}
+.trending-item {
+   flex-shrink: 0;
+   width: 30vmax;
+   height: 40vmax;
+   /* border: 3px solid blue; */
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+
+
+.trending-item-1 {
+background-image: url(item1.jpg);
+}
+
+.trending-item-2 {
+background-image: url(item2.jpg);
+
+
+
+}
+
+.trending-item-3 {
+
+background-image: url(item3.jpg);
+object-fit: cover;
+
+   
+
+
+
+}
+
+.trending-item-4 {
+
+background-image: url(item4.jpg);
+
+
+
+
+}
+
+.trending-item-5 {
+   
+background-image: url(item5.jpg);
+
+}
+
+.trending-item-6 {
+
+background-image: url(item6.jpg);
+
+
+}
+
+.trending-item-7 {
+   background-image: url(item7.jpg);
+
+
+}
+
+.trending-item-8 {
+background-image: url(item8.jpg);
+
+
+
+
+}
+
+.trending-item-9 {
+  background-image: url(item9.jpg);
+
+
+
+
+}
+
+.trending-item-10 {
+   
+background-image: url(item10.jpg);
+
+
+
+}
+.more-reason {
+   font-size: 4vmax;
+}
+.more-services {
+   width: 100%;
+   height: auto;
+   /* border: 3px solid white; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 3vmax;
+
+} 
+.services {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   width: 90%;
+   height: max-content;
+   border: 3px solid rgb(44, 44, 58) ;
+   background-color: rgb(44, 44, 58);
+   font-size: 3vmax;
+   border-radius: 0%;
+   flex-wrap: wrap;
+   margin-top: 3vmax;
+}
+.services h2, p{
+   margin-left: 2vmin;
+
+}
+.FAQ {
+   width: auto;
+   height: auto;
+   font-size: 3vmax;
+   display: flex;
+   flex-direction: column;
+   margin-left: 4vmax;
+   gap: 3vmax;
+   margin-top: 3vmax;
+
+} 
+.questions {
+   width: 90%;
+   height: auto;
+   background-color: rgb(36, 36, 41);
+white-space: wrap;
+} 
+.second-input-box {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2vmax;
+}
+.second-input-box input {
+   width: max-content;
+   padding: 15px 20px;
+   font-size: 3vmax;
+   color: white;
+   box-shadow: 1px 1px 6px 6px rgb(153, 39, 234);
+   background-color: rgb(36, 28, 28);
+} 
+.second-input-box button {
+   color: white;
+   background-color: red;
+   padding: 10px 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 3vmax;
+   font-weight: bolder;
+   box-shadow: 1px 1px 6px 6px rgb(99, 25, 25);
+
+}
+.Questions {
+   width: 100%;
+   height: auto;
+   display: flex;
+   margin-top: 2vmax;
+   display: flex;
+   flex-wrap: wrap;
+} 
+.Last-faq {
+   font-size: 3vmax;
+   margin-top: 3vmax;
+}
+.first-questions {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 2vmax;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 2vmax;
+   margin-left: 2vmax;
+} 
+.second-questions {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 2vmax;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 2vmax;
+   margin-left: 3vmax;
+
+} 
+select,option {
+   width: auto;
+   height: max-content;
+   font-size: 3vmax;
+   color: black;
+   margin: 3vmax;
+}
+footer>p, footer>h2 {
+   margin: 2vmax;
+   color: rgb(249, 206, 206);
+   font-size: 3vmax;
+}
