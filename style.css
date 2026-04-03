@@ -173,10 +173,8 @@ nav button {
 }
 .trending-item {
    flex-shrink: 0;
-   width: 25vmax;
-   max-width:auto;
-   height: 35vmax;
-   max-height:auto;
+   width: auto;
+   height: auto;
 
   
    background-repeat: no-repeat;
