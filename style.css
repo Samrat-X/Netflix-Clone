@@ -173,9 +173,11 @@ nav button {
 }
 .trending-item {
    flex-shrink: 0;
-   width: 30vmax;
-   height: 40vmax;
-   /* border: 3px solid blue; */
+   width: 25vmax;
+   max-width:auto;
+   height: 35vmax;
+   max-height:auto;
+
   
    background-repeat: no-repeat;
    background-size: cover;
