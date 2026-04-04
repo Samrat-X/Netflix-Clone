@@ -184,11 +184,11 @@ nav button {
 
 
 .trending-item-1 {
-background-image: url(item1.jpg);
+background-image: url(/Netflix-Clone/item1.jpg);
 }
 
 .trending-item-2 {
-background-image: url(item2.jpg);
+background-image: url(/Netflix-Clone/item2.jpg);
 
 
 
@@ -196,7 +196,7 @@ background-image: url(item2.jpg);
 
 .trending-item-3 {
 
-background-image: url(item3.jpg);
+background-image: url(/Netflix-Clone/item3.jpg);
 object-fit: cover;
 
    
@@ -207,7 +207,7 @@ object-fit: cover;
 
 .trending-item-4 {
 
-background-image: url(item4.jpg);
+background-image: url(/Netflix-Clone/item4.jpg);
 
 
 
@@ -216,25 +216,25 @@ background-image: url(item4.jpg);
 
 .trending-item-5 {
    
-background-image: url(item5.jpg);
+background-image: url(/Netflix-Clone/item5.jpg);
 
 }
 
 .trending-item-6 {
 
-background-image: url(item6.jpg);
+background-image: url(/Netflix-Clone/item6.jpg);
 
 
 }
 
 .trending-item-7 {
-   background-image: url(item7.jpg);
+   background-image: url(/Netflix-Clone/item7.jpg);
 
 
 }
 
 .trending-item-8 {
-background-image: url(item8.jpg);
+background-image: url(/Netflix-Clone/item8.jpg);
 
 
 
@@ -242,7 +242,7 @@ background-image: url(item8.jpg);
 }
 
 .trending-item-9 {
-  background-image: url(item9.jpg);
+  background-image: url(/Netflix-Clone/item9.jpg);
 
 
 
@@ -251,7 +251,7 @@ background-image: url(item8.jpg);
 
 .trending-item-10 {
    
-background-image: url(item10.jpg);
+background-image: url(/Netflix-Clone/item10.jpg);
 
 
 
