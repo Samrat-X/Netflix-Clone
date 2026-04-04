@@ -176,8 +176,6 @@ nav button {
    flex-shrink: 0;
    width: 20vmax;
    height: 20vmax;
-   /* border: 3px solid blue; */
-  
    background-repeat: no-repeat;
    background-size: cover;
 
